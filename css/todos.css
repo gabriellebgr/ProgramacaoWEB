@@ -1,0 +1,84 @@
+h2{
+    text-align: center;
+    color: #190C47;
+    font-family: Unispace;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#divTodosProdutos {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.div-card-todos{
+    width: 250px;
+    height: 390px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    float: left;
+    flex-direction: row;
+    margin: 25px 25px 25px 25px;
+    box-shadow: 5px 5px 5px 2.0px #a285ff4f;
+}
+
+.div-img-todos img{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.div-descricao-todos{
+    width: 100%;
+    font-size: 100%;
+    text-align: center;
+    height: 30px;
+    padding-top: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.div-valor-todos{
+    text-align: center;
+    color: #190C47;
+    font-family: Unispace;
+    height: 30px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.div-comprar-todos{
+    text-align: center;
+    background-color: #A185FF;
+    color: #070314;
+    height: 40px;
+    cursor: pointer;
+    padding-top: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: Unispace;
+    line-height:25px;
+}
+
+.div-comprar-todos:hover{
+    background-color: #472DA0;
+}
+
+.div-comprado-todos{
+    background-color: #80DDD9;
+    font-size: 15px;
+    line-height:18px;
+}
+
+.div-comprado-todos:hover{
+    background-color: #80DDD9;
+}
+
+
+@media screen and (max-width:1340px ) {
+
+    .div-card-todos{
+        margin: 20px;
+    }
+}
+
