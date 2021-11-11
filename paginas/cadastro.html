@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../css/estilo.css">
+        <link rel="stylesheet" href="../css/cadastro.css">
+        <script src="../js/cadastro.js"></script>
+    </head>
+
+    <body>
+
+        <div class="divCabecalho">
+            DA NOSSA PRATELEIRA, PARA A SUA COLEÇÃO!
+        </div>
+
+
+        <div id="div-menu">   
+            <input type="checkbox" id="check">
+            <label for="check" >
+                <img src="../img/menu.png"/>
+            </label>
+            <nav>
+                <ul>
+                    <li class="config" onclick="mudaPaginaIn()">HOME</li>
+                    <li class="config" onclick="mudaPaginaMenuBHA()">Boku no Hero Academia</li>
+                    <li class="config" onclick="mudaPaginaMenuDS()">Demon Slayer</li>
+                    <li class="config" onclick="mudaPaginaMenuDB()">Dragon Ball</li>
+                    <li class="config" onclick="mudaPaginaMenuM()">Marvel</li>
+                    <li class="config" onclick="mudaPaginaMenuN()">Naruto</li>
+                    <li class="config" onclick="mudaPaginaMenuOP()">One Piece</li>
+                    <li class="config" onclick="mudaPaginaMenuP()">Pokémon</li>
+                    <li class="config" onclick="mudaPaginaVer()">Todos Produtos</li>
+                </ul>
+            </nav>
+
+            <div class="div-img-logo">
+                <button onclick="mudaPaginaIn()" class="botao-logo">
+                    <img src="../img/logo.jpeg"/>
+                </button>
+            </div>
+
+            <div class="div-img-icones">
+                <button onclick="mudaPaginaLog()" class="botao">
+                    <img src="../img/perfil.png"/>
+                </button>
+                <button class="botao-um">
+                    <img src="../img/lupa.png"/>
+                </button>
+                <button onclick="mudaPaginaCar()" class="botao-dois">
+                    <img src="../img/carrinho.png"/>
+                </button>
+            </div>   
+        </div>
+        
+
+        <div class="div-espaço">
+            <div class="sair">
+                <img onclick="mudaPaginaLog()" src="../img/sair.png"/>
+            </div>
+            <div class="div-titulo">
+                Faça seu Cadastro 
+            </div>
+            <div class="div-colunas">
+                <input type="text" placeholder="Nome" />
+            </div>
+            <div class="div-colunas">
+                <input type="text" placeholder="Sobrenome" />
+            </div>
+            <div class="div-colunas">
+                <input type="text" placeholder="E-mail" />
+            </div>
+            <div class="div-colunas">
+                <input type="text" placeholder="Nome de Usuário" />
+            </div>
+            <div class="div-colunas"> 
+                <input type="password" placeholder="Senha" /> 
+            </div>
+            <div class="div-colunas"> 
+                <input type="password" placeholder="Repetir Senha" /> 
+            </div>
+            <div class="div-logar-botao">
+                <button onclick="mudaPaginaIn()">
+                    CADASTRAR
+                </button>
+            </div>
+        </div>
+
+
+        <div class="div-contato">
+            <div class="div-formata">
+                CONTATO
+                <div class="div-sub">
+                    Fale conosco <br>
+                    SAC (10:00 às 18:00) : (41)3333-3333 <br>
+                    Loja Física: (41)3123-4567<br>
+                    WhatsApp: (41)99999-9999<br>
+                </div>
+            </div>
+           
+            <div class="div-formata">
+                ATENDIMENTO LOJA FÍSICA
+                <div class="div-sub">
+                    Segeunda à Sabado: das 09:00 às 20:00 <br>
+                    Domingo: das 10:00 às 14:00<br>
+                    Rua dos Bonecos, nº 1234<br>
+                    Curitiba-PR <br>
+                </div>
+                
+            </div>
+
+        </div>
+        
+        
+        <div class="div-redeSocial">
+        </div>
+        <div class="div-final">
+            <img src="../img/facebook.png" />
+            <img src="../img/twitter.png" />
+            <img src="../img/pinterest.jpg" />
+            <img src="../img/instagram.png" />
+        </div>
+
+    </body>
+</html>
