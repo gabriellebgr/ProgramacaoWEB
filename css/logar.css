@@ -1,0 +1,106 @@
+
+.div-espaço{
+    width: 100%;
+    height: 585px;
+    background-color:#EFEEEE;
+}
+
+.sair img {
+    width: 30px;
+    height: 30px;
+    margin: 5px 30px 10px 200px;
+    cursor: pointer;
+}
+
+.div-titulo{
+    font-family: Unispace;
+    font-size: 40px;
+    line-height:120px;    
+    text-align: center;
+}
+
+.div-colunas{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.div-colunas input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    background-color:transparent;
+    border-radius: 3px;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 2px solid #472DA0;
+    outline: 0;
+}
+
+.div-logar-botao {
+    display: flex;
+    justify-content: center;
+}
+
+.div-logar-botao button{
+    width: 400px;
+    height: 50px;
+    border: none;
+    background-color:#A185FF;
+    border-radius: 3px;
+    color: #070314;
+    font-family: Unispace;
+    font-size: 20px;
+}
+
+.div-logar-botao button:hover{
+    background-color:#80DDD9;
+    cursor: pointer;
+}
+
+.div-recuperar{
+    font-family: Unispace;
+    font-size: 12px;
+    line-height:100px;    
+    text-align: center;
+    color: dimgray;
+}
+
+.div-recuperar a{
+    color: #A185FF;
+}
+
+.div-recuperar a:hover{
+    color:red;
+}
+
+
+
+@media screen and (max-width:500px ){
+    .div-espaço{
+        height: 420px;
+    }
+
+    .div-titulo{
+        font-size: 30px;
+    }
+
+    .div-colunas{
+        margin: 20px;
+    }
+
+    .div-colunas input{
+        width: 250px;
+        height: 35px;
+    }
+
+    .div-logar-botao button{
+        width: 250px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .div-recuperar{
+        line-height:80px;    
+    }
+}

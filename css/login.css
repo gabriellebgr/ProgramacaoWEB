@@ -1,0 +1,82 @@
+#div-login{
+    width: 100%;
+    height: 600px;
+    background-color:#EFEEEE;
+    display: flex;
+    justify-content: center;
+}
+
+.div-card-login{
+    width: 400px;
+    height: 350px;
+    background-color: #EFEEEE;
+    float: left;
+    flex-direction: row;
+    margin: 110px 25px 0px 25px;
+    border: solid 1px #A185FF;
+}
+
+.div-arruma{
+    width: 100%;
+    height: 80px;
+    background-color: #A185FF;
+
+}
+
+.div-img-login img{
+    width: 100px;
+    height: 100px;
+    margin: 25px 100px 0px 150px;
+}
+
+.div-escrita{
+    text-align: center;
+    margin: 95px 0px 0px 0px;
+    font-family: Unispace;
+}
+
+.div-botaologin button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: #A185FF;
+    color: #070314;
+    cursor: pointer;
+    font-family: Unispace;
+    margin: 50px 0px 0px 125px;
+}
+
+.div-botaologin button:hover{
+    background-color: #80DDD9;
+}
+
+@media screen and (max-width:900px ){
+    #div-login{
+        height: 950px;
+        flex-wrap: wrap;
+        
+    }
+    .div-card-login{
+        margin: 50px 25px 0px 25px;
+    }
+    .div-botaologin button{
+        transform: translate(0%, 20%);
+    }
+    .div-img-login img{
+        transform: translate(0%, 0%);
+    }
+}
+
+@media screen and (max-width:450px ){
+    .div-botaologin button{
+        transform: translate(-15%, 20%);
+    }
+    .div-img-login img{
+        transform: translate(-15%, 0%);
+    }
+}
+
+
+
+
+
